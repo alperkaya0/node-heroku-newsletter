@@ -29,11 +29,11 @@ app.post("/", function(req,res) {
         ]
     };
 
-    const url = "https://us14.api.mailchimp.com/3.0/lists/YOURLISTIDGOESHERE"
+    const url = "https://YOURDCGOESHERE[example:us14].api.mailchimp.com/3.0/lists/YOURLISTIDGOESHERE"
 
     let options = {
         method : "POST",
-        auth : "anystringgoeshere:APIKEYHERE"
+        auth : "anystringgoeshere_maybeyourname:APIKEYHERE"
     }
 
     let rcode = 404;
